@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* navsearch */
+.navsearch .btn {
+  border: none;
+  color: black;
+  width: 5rem;
+  border-radius: 10px;
+  margin-left: 3rem;
+}
+.navsearch .form-control {
+  border-radius: 10px;
+  width: 25rem;
+}
+.navsearch img {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+}
+.navsearch .navbar-brand {
+  margin-left: 2rem;
+}
+/* navmenu */
+.navmenu img {
+  padding-top: 0;
+}
+.navmenu li {
+  margin-left: 3rem;
+}
+.navmenu .btn {
+  border: none;
+  color: black;
+  font-weight: 800;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  width: 5rem;
+}
+/* pageone */
+.pageone .jumbotron {
+  background-color: white;
+}
+.pageone h5 {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.pageone p {
+  font-weight: 100;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.pageone .btn {
+  font-weight: 800;
+  border-radius: 20px;
+  width: 22vh;
+}
+/* pagetwo */
+.pagetwo .card {
+  margin: 1rem auto;
+  border: none;
+}
+.pagetwo .card .btn {
+  width: 12.3rem;
+  margin-left: 0;
+}
+.pagetwo .card .card-header {
+  border: none;
+  height: 10rem;
+  padding: 2.5rem 0;
+}
+.pagetwo .card .card-header hr {
+  width: 10rem;
+  background-color: white;
+  border: 0.1rem white solid;
+}
+.pagetwo .card .card-footer {
+  border: none;
+  height: 10rem;
+  padding: 4rem 0;
+}
+.pagetwo .card .row .col-md-12 {
+  margin-bottom: 5rem;
+}
+.pagetwo .card .row .col-md-12 a {
+  text-decoration: none;
+  color: black;
+}
+/* pagethree */
+.pagethree .card {
+  margin: 1rem auto;
+  border: none;
+}
+.pagethree .card .card-header {
+  border: none;
+  height: 10rem;
+  padding: 2.5rem 0;
+  margin-bottom: 1rem;
+}
+.pagethree .card .card-header hr {
+  width: 10rem;
+  background-color: white;
+  border: 0.1rem white solid;
+}
+/* pagefour */
+.pagefour .container {
+  margin: 1rem auto;
+  text-align: center;
+}
+.pagefour .container hr {
+  width: 10rem;
+  background-color: #ffc107;
+  border: 0.1rem #ffc107 solid;
+}
+.pageregister .container .card-body button {
+  width: 100%;
+}
+.databelanja .container .card-header {
+  border: none;
+  color: white;
+}
+.databelanja .container a {
+  width: 100%;
+}
+.datareseller .container .card-header {
+  border: none;
+  color: white;
+}
+.datareseller .container a {
+  width: 100%;
+}
+/* pagefive */
+.pagefive .container {
+  margin: 1rem auto;
+  text-align: center;
+}
+.pagefive .container hr {
+  width: 10rem;
+  background-color: #ffc107;
+  border: 0.1rem #ffc107 solid;
+}
+.pagelogin .container button {
+  width: 100%;
+}
+.pagelogin .container p {
+  font-size: 0.8rem;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.pagelogin .container a {
+  font-size: 1rem;
+}
+/* pageadmin */
+.container .row .tambahbelanja .card-body button {
+  width: 100%;
+}
+.container .row .tambahreseller .card-body button {
+  width: 100%;
+}
+.container .editbelanja .card-body button {
+  width: 100%;
+}
+.container .editbelanja .card-body a {
+  width: 100%;
+}
+/* footer */
+.footer {
+  margin-top: 8rem;
+}
+.footer .card {
+  border: none;
+}
+.footer .card .card-header {
+  border: none;
+  height: 10rem;
+  padding: 2.5rem 0;
+}
+.footer .card .card-header hr {
+  width: 10rem;
+  background-color: white;
+  border: 0.1rem white solid;
+}
