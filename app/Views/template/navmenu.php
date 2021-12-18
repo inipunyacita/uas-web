@@ -50,7 +50,7 @@
                     <a class="nav-link" href="#pagethree">Cara Belanja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('/reseller') ?>">Reseller</a>
+                    <a class="nav-link" href="<?= base_url('/regisreseller') ?>">Reseller</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-light bg-white btn-lg" href="<?= base_url('/login') ?>" role="button">LOGIN</a>

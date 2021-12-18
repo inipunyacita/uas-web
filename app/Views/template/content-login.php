@@ -4,7 +4,7 @@
         <center>
             <hr>
         </center>
-        <h6 class="font-weight-light">Laman Login Pengelola Merthanaya Store</h6>
+        <h6 class="font-weight-light">Laman Login Pengguna Merthanaya Store</h6>
     </div>
 </div>
 <!-- login page start -->
@@ -26,7 +26,7 @@
                         <input type="password" class="form-control" name="password" id="exampleInputPassword1">
                         <small id="emailHelp" class="form-text text-muted">Isi dengan password yang sudah didaftarkan</small>
                     </div>
-                    <p>Ingin jadi reseller ? <br> Registrasi <a href="regis.php">Disini</a> </p>
+                    <p>Ingin jadi reseller ? <br> Registrasi <a href="<?= base_url('/regisreseller') ?>">Disini</a> </p>
                     <button type="submit" class="btn btn-warning font-weight-bold">SUBMIT</button>
                 </form>
             </div>

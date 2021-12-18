@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Reseller extends BaseController
+class RegisReseller extends BaseController
 {
     public function index()
     {
