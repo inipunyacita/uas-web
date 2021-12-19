@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class RegisReseller extends BaseController
+class Admin extends BaseController
 {
     public function index()
     {
-        return view('/regis-ress');
+        return view('/admin');
     }
 }

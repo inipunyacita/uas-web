@@ -9,26 +9,14 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-/* navsearch */
-.navsearch .btn {
-  border: none;
-  color: black;
-  width: 5rem;
-  border-radius: 10px;
-  margin-left: 3rem;
-}
-.navsearch .form-control {
-  border-radius: 10px;
-  width: 25rem;
-}
-.navsearch img {
-  margin-right: 2vh;
-  margin-bottom: 1vh;
-}
-.navsearch .navbar-brand {
-  margin-left: 2rem;
-}
 /* navmenu */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
 .navmenu img {
   padding-top: 0;
 }
@@ -44,6 +32,10 @@ body {
   width: 5rem;
 }
 /* pageone */
+.pageone {
+  height: 100vh;
+  padding: 0 2.5rem;
+}
 .pageone .jumbotron {
   background-color: white;
 }
@@ -73,7 +65,7 @@ body {
 .pagetwo .card .card-header {
   border: none;
   height: 10rem;
-  padding: 2.5rem 0;
+  padding: 2.5rem;
 }
 .pagetwo .card .card-header hr {
   width: 10rem;
@@ -100,7 +92,7 @@ body {
 .pagethree .card .card-header {
   border: none;
   height: 10rem;
-  padding: 2.5rem 0;
+  padding: 2.5rem;
   margin-bottom: 1rem;
 }
 .pagethree .card .card-header hr {
@@ -109,6 +101,10 @@ body {
   border: 0.1rem white solid;
 }
 /* pagefour */
+.pagefour .card {
+  margin: 1rem auto;
+  border: none;
+}
 .pagefour .container {
   margin: 1rem auto;
   text-align: center;
@@ -117,6 +113,22 @@ body {
   width: 10rem;
   background-color: #ffc107;
   border: 0.1rem #ffc107 solid;
+}
+.pagefour .card .card-header {
+  border: none;
+  height: 10rem;
+  padding: 2.5rem;
+  margin-bottom: 1rem;
+}
+.pagefour .card .card-header hr {
+  width: 10rem;
+  background-color: white;
+  border: 0.1rem white solid;
+}
+#formdaftar p {
+  font-size: 0.8rem;
+  margin: 1.5rem auto;
+  text-align: center;
 }
 .pageregister .container .card-body button {
   width: 100%;
@@ -185,4 +197,18 @@ body {
   width: 10rem;
   background-color: white;
   border: 0.1rem white solid;
+}
+@media (max-width: 767px) {
+  #imgdaftar,
+  #imglogin {
+    display: none;
+  }
+  #card,
+  #login {
+    margin: 0 2rem;
+  }
+  #img {
+    width: 35vh;
+    height: 35vh;
+  }
 }

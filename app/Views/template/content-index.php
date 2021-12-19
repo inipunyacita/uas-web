@@ -1,11 +1,11 @@
 <!-- jumbotron start -->
-<div class="pageone">
-    <div class="row justify-content-center">
-        <div class="col-md-5">
+<div class="pageone d-flex justify-content-center align-items-center" id="pageone">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-5" id="img">
             <img src="assets/img/ilus1.svg" alt="Asset1" width="100%" height="100%">
         </div>
-        <div class="col-md-5 pl-5">
-            <div class="jumbotron my-5"><br><br>
+        <div class="col-md-5">
+            <div class="jumbotron"><br><br>
                 <h2 class="font-weight-bold">Selamat datang!</h2><br>
                 <h5>Website untuk mencari informasi mengenai produk dan transaksi di merthanaya store</h5>
                 <hr class="my-4">
@@ -115,7 +115,7 @@
             </center>
         </div>
         <div class="container my-2">
-            <div class="row row-cols-1 row-cols-md-3">
+            <div class="row">
                 <div class="col-md-3">
                     <div class="card h-100">
                         <img src="assets/img/step1.svg" class="card-img-top" alt="...">
@@ -156,6 +156,24 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- buy page -->
+<div class="pagefour my-5" id="pagefour">
+    <div class="card text-center">
+        <div class="card-header bg-warning">
+            <h4 class="font-weight-bold">Belanja</h4>
+            <h6 class="font-weight-light">Belanja produk Merthanaya Store</h6>
+            <center>
+                <hr>
+            </center>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">Gambar</div>
+                <div class="col-md-6">Proses Belanja</div>
             </div>
         </div>
     </div>

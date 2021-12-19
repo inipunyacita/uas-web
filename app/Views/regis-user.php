@@ -1,3 +1,9 @@
+<?php
+
+use phpDocumentor\Reflection\Types\This;
+use SebastianBergmann\Template\Template;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,12 +18,13 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Login | Merthanaya</title>
+    <title>Register | Merthanaya</title>
 </head>
-
 <!-- start page -->
 
 <body>
+    <!-- nav -->
+    <!-- navigation menu -->
     <div class="navmenu">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
             <a class="navbar-brand font-weight-bold pl-5 my-0" href="#page-top"><img src="assets/img/logo.svg" alt="Logo" width="150px height=85px"></a>
@@ -65,8 +72,8 @@
             </div>
         </nav>
     </div>
-    <!-- login title -->
-    <?= $this->include('template/content-login') ?>
+    <!-- content regis -->
+    <?= $this->include('template/content-regis-user') ?>
     <!-- footer -->
     <?= $this->include('template/footer') ?>
 </body>
