@@ -2,7 +2,7 @@
 <div class="pageone d-flex justify-content-center align-items-center" id="pageone">
     <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-5" id="img">
-            <img src="assets/img/ilus1.svg" alt="Asset1" width="100%" height="100%">
+            <img src="../assets/img/ilus1.svg" alt="Asset1" width="100%" height="100%">
         </div>
         <div class="col-md-5">
             <div class="jumbotron"><br><br>
@@ -161,7 +161,7 @@
     </div>
 </div>
 <!-- buy page -->
-<div class="pagefour my-5" id="pagefour">
+<!-- <div class="pagefour my-5" id="pagefour">
     <div class="card text-center">
         <div class="card-header bg-warning">
             <h4 class="font-weight-bold">Belanja</h4>
@@ -177,4 +177,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

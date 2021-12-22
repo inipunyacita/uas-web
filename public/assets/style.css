@@ -169,17 +169,27 @@ body {
   font-size: 1rem;
 }
 /* pageadmin */
+
 .container .row .tambahbelanja .card-body button {
   width: 100%;
 }
-.container .row .tambahreseller .card-body button {
+.container .row .tambahuser .card-body button {
   width: 100%;
 }
 .container .editbelanja .card-body button {
   width: 100%;
 }
-.container .editbelanja .card-body a {
+.container .edituser .card-body a {
   width: 100%;
+}
+.formtambah {
+  width: 100%;
+}
+#btntambah {
+  width: 100%;
+}
+.datauser .card {
+  border: none;
 }
 /* footer */
 .footer {
@@ -208,7 +218,12 @@ body {
     margin: 0 2rem;
   }
   #img {
-    width: 35vh;
-    height: 35vh;
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .cardtambah {
+    width: 60%;
   }
 }

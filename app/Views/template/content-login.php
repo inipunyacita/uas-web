@@ -12,18 +12,28 @@
     <div class="container my-2">
         <div class="row justify-content-center my-5">
             <div class="col-md-4" id="imglogin">
-                <img src="assets/img/loginicon.svg" alt="Asset1" width="100%" height="100%">
+                <img src="../assets/img/loginicon.svg" alt="Asset1" width="100%" height="100%">
             </div>
             <div class="col-md-6" id="login">
-                <form action="#" method="POST">
+                <?php if (!empty(session()->getFlashdata('error'))) : ?>
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <h4>Periksa Data Inputan</h4>
+                        </hr />
+                        <?php echo session()->getFlashdata('error'); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if (session()->getFlashdata('msg')) : ?>
+                    <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+                <?php endif; ?>
+                <form action="/login/auth" method="POST">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
+                        <label>Email</label>
+                        <input type="text" class="form-control" name="email">
                         <small id="emailHelp" class="form-text text-muted">Isi dengan email yang sudah didaftarkan</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+                        <label>Password</label>
+                        <input type="password" class="form-control" name="password">
                         <small id="emailHelp" class="form-text text-muted">Isi dengan password yang sudah didaftarkan</small>
                     </div>
                     <p>Ingin jadi member ? <br> Registrasi <a href="<?= base_url('/regisuser') ?>">Disini</a> </p>
