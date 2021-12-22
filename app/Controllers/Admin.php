@@ -13,7 +13,7 @@ class Admin extends BaseController
     }
     public function index()
     {
-        $data['user'] = $this->user->findAll();
+        $data['user'] = $this->user->get_user();
         return view('admin/admin', $data);
     }
     public function store()
