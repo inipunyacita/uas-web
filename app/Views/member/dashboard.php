@@ -51,15 +51,17 @@
                                         <form action="<?= base_url('dashboard/store') ?>" method="post"> <?= csrf_field(); ?>
                                             <div class="form-group">
                                                 <label>Nama Product:</label>
-                                                <select name="product" class="form-control" value="<?= old('product'); ?>">
+                                                <select name="product" class="form-control" onchange="autoJumlah()" id="produk" value="<?= old('product'); ?>">
+                                                    <option value="">-- Produk --</option>
                                                     <?php foreach ($produk as $data) : ?>
                                                         <option value="<?= $data->id_produk ?>"><?= $data->nama_produk ?></option>
                                                     <?php endforeach ?>
                                                 </select>
                                                 <label>Jumlah :</label>
-                                                <input type="number" name="jumlah" class="form-control" placeholder="cth. 12" value="<?= old('numeric'); ?>">
+                                                <input type="number" id="jumlah" name="jumlah" onkeyup="autoJumlah()" class="form-control" placeholder="cth. 12" value="<?= old('numeric'); ?>">
+                                                <p>Total Harga : <span id="total">0</span></p>
                                                 <label>Total Harga (Rp):</label>
-                                                <input type="number" name="total" class="form-control" placeholder="cth. 24000" value="<?= old('numeric'); ?>">
+                                                <input type="number" name="total" class="form-control" placeholder="Sesuaikan dengan total harga" value="<?= old('numeric'); ?>">
                                                 <input type="hidden" name="hidden" value="<?php echo session('id_user') ?>">
 
                                             </div>

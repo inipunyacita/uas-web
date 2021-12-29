@@ -66,7 +66,8 @@ class Admin extends BaseController
             'email_user' => $this->request->getVar('emailuser'),
             'user_pass' => $this->request->getVar('passuser'),
             'no_hp' => $this->request->getVar('nohp'),
-            'alamat' => $this->request->getVar('alamat')
+            'alamat' => $this->request->getVar('alamat'),
+            'role' => $this->request->getVar('role')
         ]);
         session()->setFlashdata('message', 'Tambah Data Member Berhasil');
         return redirect()->to('/admin');
